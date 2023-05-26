@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * _zero - error when top stack is 0 
+ * _zero - error when top stack is 0
  */
 void _zero(void)
 {

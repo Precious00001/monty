@@ -1,5 +1,4 @@
 #include "monty.h"
-info_t info;
 /**
  * treat_monty - Treat The Monty File
  * @filename: Filename From Argument
@@ -10,6 +9,7 @@ int treat_monty(char *filename)
 	ssize_t n_r = 1;
 	size_t len = 0;
 	stack_t *stack = NULL;
+	info_t info;
 
 	info.file_n = filename;
 	info.fp = fopen(info.file_n, "r");
